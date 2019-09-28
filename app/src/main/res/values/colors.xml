@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#000000</color>
+    <color name="buttonTextcolour">#ffffff</color>
+    <color name="nav_color">#FFF</color>
+    <color name="blog_background">#FFF</color>
+    <color name="settings_background">#FFF</color>
+    <color name="icon_defaultcolor">#B2BABB</color>
+    <color name="icon_selected">#000</color>
+    <color name="appTitle_color">#008577</color>
+    <color name="nav_textactive">#454545</color>
+</resources>

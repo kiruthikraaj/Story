@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="Blog"
+    android:paddingTop="10dp"
+    android:background="@color/blog_background"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recycler"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_blog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="right|bottom"
+        android:backgroundTint="@color/colorPrimaryDark"
+        app:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginBottom="58dp"
+        android:elevation="0dp"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/ic_add" />
+
+</FrameLayout>
